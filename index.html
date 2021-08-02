@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>KRACH & POHL Referenzen</title>
+</head>
+<style>
+  /**** background ****/
+  body {
+    background: url("./img/img1.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 254, 0.6);
+    font-size: 1rem;
+    text-align: right;
+    padding: 1rem;
+  }
+
+  footer p {
+    padding-right: 1rem;
+    font-weight: bold;
+  }
+</style>
+
+<body>
+
+  <!-- NAV mit RGBA background-color -->
+ 
+ 
+
+  <nav>
+    <div class="btn_menú"> <i class="fas fa-bars fa-2x"></i> </div>
+    <div class="navMenú">
+ 
+      <a class="aktiv" href="index.html">START</a>
+      <a href="leistungen.html">LEISTUNGEN</a>
+      <a href="referenzen.html">REFERENZEN</a>
+      <a href="überuns.html">ÜBER UNS</a>
+      <a href="impressum.html">KONTAKT</a>
+    </div>
+
+  </nav>
+
+  <!-- Div BANDA:  no en el index-->
+
+  <!--C O N T E N I D O-->
+  <div class="título">
+    <h1>KRACHT UND POHL</h1>
+    <p>HISTORISCHE BAUFORSCHUNG</p>
+  </div>
+
+  <!--PIE DE PÁGINA FIJO TRANPARENTE-->
+  <footer>
+    <p><a href="impressum.html">IMPRESSUM / DATENSCHUTZ</a></p>
+  </footer>
+
+<!--   -->
+  <script>
+    document.querySelector('.btn_menú').addEventListener
+      ('click', () => document.querySelector('.navMenú').classList.toggle('mostrar'));
+  </script>
+
+</body>
+</html>

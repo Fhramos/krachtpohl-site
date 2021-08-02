@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>KRACH & POHL Referenzen</title>
+</head>
+<style>
+  /**** background ****/
+  body {
+    background: url("./img/img2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
+<body>
+
+  <!-- NAV mit RGBA background-color-->
+ 
+  
+
+  <nav>
+    <div class="btn_menú"> <i class="fas fa-bars fa-2x"></i> </div>
+    <div class="navMenú">
+
+      <a href="index.html">START</a>
+      <a class="aktiv" href="leistungen.html">LEISTUNGEN</a>
+      <a href="referenzen.html">REFERENZEN</a>
+      <a href="überuns.html">ÜBER UNS</a>
+      <a href="impressum.html">KONTAKT</a>
+    </div>
+
+  </nav>
+
+
+  <!-- Div BAND:  300px -->
+
+  <div class="band"> </div>
+
+  <!-- Div CONTENT mit RGBA background-color -->
+
+  <div class="contenedor">
+
+    <div class="grid-container">
+      <div class="izq">
+        <ul style="font-size: 1.2em; font-weight: bold;">
+          <li>Aufmaße (Genauigkeitsstufe I-IV)</li>
+          <li> Schadenskartierungen</li>
+          <li>Messbilder</li>
+          <li>gefügekundliche Untersuchungen</li>
+          <li>Dendrochronologische Beprobungen</li>
+        </ul>
+      </div>
+      <div class="medio">
+        <ul style="font-size: 1.2em; font-weight: bold;">
+          <li>Quellen- und Archivrecherche</li>
+          <li>Fotodokumentationen</li>
+          <li>Raum- und Fassadebücher</li>
+          <li>Bauteilkataloge</li>
+          <li>Bauphasenkartierungen</li>
+        </ul>
+      </div>
+      <div class="der">
+        <ul style="font-size: 1.2em; font-weight: bold;">
+          <li>Baubegleitende Bauforschung</li>
+          <li>Abstimmungen/ Beratung</li>
+          <li>Maßnahmenempfehlungen</li>
+          <li>Instandsetzungskonzepte</li>
+          <li>Denkmalpflegerische Betreung</li>
+        </ul>
+      </div>
+    </div>
+    
+   </div>
+
+  <!-- -->
+  
+  <script>
+    document.querySelector('.btn_menú').addEventListener
+      ('click', () => document.querySelector('.navMenú').classList.toggle('mostrar'));
+  </script>
+  
+
+
+</body>
+
+</html>
